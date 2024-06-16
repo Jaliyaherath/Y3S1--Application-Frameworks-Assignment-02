@@ -1,0 +1,8 @@
+.header {
+    background-color: rgb(46, 46, 224);
+    justify-content: space-between;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 5rem;
+}

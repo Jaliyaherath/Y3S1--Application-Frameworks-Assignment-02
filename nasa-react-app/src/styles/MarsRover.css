@@ -1,0 +1,24 @@
+.flex justify-between{
+    align-items: center;
+    text-align: center;
+}
+.w-full max-w-xs object-cover rounded-lg shadow-lg{
+    width: 100%;
+    max-width: 24rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .flex .image {
+        width: calc(33.33% - 1rem);
+        margin-bottom: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    }
+}
